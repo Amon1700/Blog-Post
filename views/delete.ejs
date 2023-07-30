@@ -1,0 +1,10 @@
+<%- include ("partials/header") %>
+<h1>Delete</h1>
+<form  action="/delete" method="post">
+    <div class="form-group">
+        <label for="">Enter the post title</label>
+        <input class="form-control" type="text" name="title">
+    </div>
+    <button  class="btn btn-primary" type="submit" name="button">Confirm</button>
+</form>
+<%- include ("partials/footer") %>

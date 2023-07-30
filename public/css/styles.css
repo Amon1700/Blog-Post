@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(79, 81, 72);
+    color: aliceblue;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color :rgb(27, 26, 26)
+}
+.navbar-nav  li a:hover {
+    color: #010706 !important;
+}
+
